@@ -1,0 +1,145 @@
+/* styles/Review.module.css */
+.review {
+    background: rgba(0, 127, 255, 0.36);
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px;
+    transition: all 0.3s linear;
+    text-align: center;
+    
+  }
+  .revieww {
+    background: rgba(2, 19, 36, 0.36);
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px;
+    transition: all 0.3s linear;
+    text-align: center;
+  }
+  .review:hover {
+    box-shadow: 0 5px 15px;
+  }
+  .imgContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  .personImg {
+    transform: translate(290px);
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+  }
+  .imgContainer::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transform: translateY(25%);
+ 
+  }
+  .imgContainer::before {
+    transform: translate(290px);
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: hsl(205, 78%, 60%);
+    position: absolute;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+  }
+  .author {
+    font-size: 25px;
+    transform: translate(290px);
+    margin-bottom: 0.25rem;
+  }
+
+  .job {
+    transform: translate(290px);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 0%);
+    font-size: 20px;
+  }
+
+  .info {
+    margin-bottom: 0.75rem;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .prevBtn,
+  .nextBtn {
+    transform: translate(-250px);
+    color: hsl(0, 0%, 0%);
+    font-size: 2.0rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 9rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  .prevBtn:hover,
+  .nextBtn:hover {
+    color: hsl(205, 78%, 60%);
+  }
+  .randomBtn {
+    transform: translate(-245px, -60px);
+    margin-top: 0.5rem;
+    background: hsl(0, 0%, 100%);
+    color: hsl(214, 98%, 49%);
+    padding: 1.25rem 2.25rem;
+    text-transform: capitalize;
+    border-radius:  0.25rem;
+    transition: all 0.3s linear;
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+  }
+  .randomBtn:hover {
+    background: hsl(0, 100%, 100%);
+ 
+
+  }
+
+.contenedor {
+  height: 10vh;
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.texto {
+  transform: translate(50px);
+  margin-top: 400px;
+  font-size: 50px;
+
+  
+}
+.texto2 {
+  transform: translate(-450px);
+  margin-top: 650px;
+  font-size: 30px;
+}
+
+
+  
