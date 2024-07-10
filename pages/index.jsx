@@ -12,6 +12,8 @@ import { FaUserCircle } from "react-icons/fa";
 import cumple from '../pages/cumple.js';
 
 
+
+
 export default function Home(){
     return(
         <div className={styles.container}>
