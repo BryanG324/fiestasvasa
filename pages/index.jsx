@@ -11,7 +11,7 @@ import { FaGears } from "react-icons/fa6";
 import { FaUserCircle } from "react-icons/fa";
 import cumple from '../pages/cumple.js';
 
-
+import vasa
 
 
 export default function Home(){
